@@ -1,0 +1,20 @@
+.prev,.next{
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 700;
+    width: 249px;
+    height: 280px;
+    line-height: 280px;
+    padding: 0 5px;
+    color: red;
+}
+.prev{
+    left: 55px;
+}
+.next{
+    right:200px;
+    text-align: right;
+}

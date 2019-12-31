@@ -1,0 +1,14 @@
+.imgContainer{
+    position: absolute;
+}
+.imgContainer li{
+    position:absolute;
+    list-style: none;
+    z-index: 0;
+    opacity: 0;
+}
+.active{
+    z-index: 1!important;
+    transition: opacity 1s linear 0.2s;
+    opacity: 1!important;
+}
